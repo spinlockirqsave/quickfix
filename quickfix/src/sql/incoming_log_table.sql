@@ -1,9 +1,0 @@
-USE quickfix;
-
-DROP TABLE IF EXISTS incoming_log;
-
-CREATE TABLE incoming_log (
-  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  text BLOB NOT NULL,
-  PRIMARY KEY (id)
-);
